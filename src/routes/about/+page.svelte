@@ -1,4 +1,4 @@
-<h1>Über Mich</h1>
+<h1>About Me</h1>
 <p>Combining technical understanding with people skills.</p>
   <p>  
     For small and mid-size firms without technical expertise, I am "the one to go to for technical questions".
