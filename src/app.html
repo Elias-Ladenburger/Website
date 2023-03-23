@@ -1,16 +1,13 @@
-<script>
-	import NavHeader from './lib/NavHeader.svelte'
-</script>
-
 <!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" href="%sveltekit.assets%/img/favicon.png" />
+		<link href="%sveltekit.assets%/css/main.css" rel="stylesheet">
 		<meta name="viewport" content="width=device-width" />
 		%sveltekit.head%
 	</head>
-	<body data-sveltekit-preload-data="hover">
+	<body data-sveltekit-preload-data="hover" class="leading-normal tracking-normal text-light bg-dark">
 		<div style="display: contents">%sveltekit.body%</div>
 	</body>
 </html>
