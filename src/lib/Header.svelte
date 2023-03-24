@@ -14,12 +14,7 @@
     }
 </script>
 
-<nav class="flex">
-    <div id="logo" class="hidden md:flex">
-        <a href="/">
-            <img class="max-h-10" src="./img/favicon.png" alt="A logo with the initials 'EL'." />
-        </a>
-    </div>
+<nav>
     <!-- This is used to open the menu on mobile devices -->
     <div class="md:hidden">
         <button class="text-primaryContrast text-4xl font-bold duration-300 hover:opacity-70"
@@ -27,7 +22,8 @@
             &#9776;
         </button>
     </div>
-    <div class="justify-right items-right text-left">
+
+    <div class="justify-end text-left">
 
         <ul id="menu" class="{showOnMobile} bg-primary fixed top-0 right-0 px-10 py-16 bg-gray-800 z-50
                         md:relative md:flex md:p-0 md:flex-row md:space-x-6">
@@ -44,6 +40,11 @@
                 </li>
                 {/each}
             </ul>
+            <div id="logo" class="hidden md:flex">
+                <a href="/">
+                    <img class="max-h-10" src="./img/favicon.png" alt="A logo with the initials 'EL'." />
+                </a>
+            </div>
         </ul>
     </div>
     
