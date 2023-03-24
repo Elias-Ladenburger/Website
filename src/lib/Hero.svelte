@@ -1,7 +1,7 @@
 <script>
     export let heroTitle = "";
     export let heroSubtitle = "";
-    export let heroCTA = "";
+    export let heroCTA = {title:"", link:""};
   </script>
   
   <div class="p-28 pt-24 text-Contrast">
@@ -14,12 +14,13 @@
         <p class="leading-normal text-2xl mb-8">
           {@html heroSubtitle}
         </p>
-        {#if heroCTA}
-        <button class="lg:mx-0 bg-emphasis hover:underline 
+        {#if heroCTA.title}
+        <a href="/{heroCTA.link}"
+        class="lg:mx-0 bg-emphasis hover:underline 
         font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none 
         focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-          {heroCTA}
-        </button>
+          {heroCTA.title}
+      </a>
         {/if}
       </div>
     </div>
