@@ -2,9 +2,9 @@
     let home = {name: "Start", slug: ""},
         about = {name: "About", slug: "about"};
     // let references = {name: "References", slug: "references"};
-    // let blog = {name: "Blog", slug: "blog"}
+    let blog = {name: "Blog", slug: "blog"}
 
-    let menu = [home, about];
+    let menu = [home, about, blog];
     $: showOnMobile = "hidden";
     
     function showMenuOnMobile() {

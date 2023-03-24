@@ -1,27 +1,21 @@
 <script>
     export let heroTitle = "";
     export let heroSubtitle = "";
-    export let heroCTA = {title:"", link:""};
   </script>
   
-  <div class="p-28 pt-24 text-Contrast">
-    <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-left">
+  <div class="md:p-28 pt-24 text-Contrast text-center">
+    <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
       <!--Left Col-->
-      <div class="flex flex-col w-full justify-left items-start text-left md:text-left">
-        <h1 class="my-4 text-5xl font-bold leading-tight ">
+      <div class="flex flex-col w-full justify-center items-center text-center">
+        <h1 class="md:text-5xl sm:text-4xl text-3xl font-bold leading-tight ">
           {@html heroTitle}
         </h1>
-        <p class="leading-normal text-2xl mb-8">
+        {#if heroSubtitle}
+        <p class="leading-normal md:text-2xl text-xl md:mb-8">
           {@html heroSubtitle}
         </p>
-        {#if heroCTA.title}
-        <a href="/{heroCTA.link}"
-        class="lg:mx-0 bg-emphasis hover:underline 
-        font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none 
-        focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-          {heroCTA.title}
-      </a>
         {/if}
+        <slot />
       </div>
     </div>
   </div>
