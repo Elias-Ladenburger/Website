@@ -1,7 +1,11 @@
 <script>
   import Hero from "$lib/Hero.svelte";
+  import Content from "$lib/Content.svelte";
+
 </script>
 
-<Hero heroTitle="<em class='text-orangeDark'>Step up</em> your eCommerce game."
+<Hero heroTitle="Step up your <em class='bg-emphasis'>eCommerce game</em>."
   heroSubtitle="Stop worrying over technology. Get an expert."
   heroCTA="Find out more"/>
+
+  <Content content=""/>

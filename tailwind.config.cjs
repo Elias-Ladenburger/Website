@@ -14,8 +14,16 @@ module.exports = {
       }
     },
     colors: {
+      primary: colors.white,
+      primaryContrast: "#161633",
+      emphasis: "#C98D26",
+      secondary: "",
+      secondaryContrast: "",
+
       dark: "rgb(22, 22, 22)",
       light: "rgb(247, 247, 247)",
+      orangeDark: "rgb(176, 80, 32)",
+
 		  blueMidnight: "#191970",
 		  blueNavy: "#000080",
 		  blueBlack: "#161633",
@@ -24,7 +32,6 @@ module.exports = {
       blueGrey: "#6699CC",
       blueGrotto: "#0476D0",
       blueBaby: "#89CFF0",
-      orangeDark: "rgb(176, 80, 32)",
 		  black: colors.black,
       white: colors.white,
     },
