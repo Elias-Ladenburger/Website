@@ -5,8 +5,8 @@
 </script>
 
 <div class="bg-primary text-primaryContrast">
-<Hero heroTitle="Step up your <em class='bg-emphasis text-primary'>online presence</em>."
-  heroSubtitle="Outsource your worries over tooling, processes and page speed."
+<Hero heroTitle="The <em class='bg-emphasis text-primary'>general practitioner</em> for tech."
+  heroSubtitle="Your first point of contact for all concerns around software, eCommerce and technology."
   ><Button label="Find out more" link="about"/> 
 </Hero>
 </div>
