@@ -1,5 +1,6 @@
 <script>
-    import Hero from "$lib/Hero.svelte";
+    import Button from "$lib/Button.svelte";
+import Hero from "$lib/Hero.svelte";
 
     $: myMail = "click to show mail";
     function showMail() {
@@ -41,8 +42,8 @@
         What data do I collect?
     </h2>
 
-    <p>
-    I collect the following data:</p>
+    <p>I collect the following data:</p>
+
         <ul class="mx-5 list-disc">
             <li><strong>Personal identification information</strong> (Name, email address, phone number, etc.): only if you provide them to me via the contact form.</li>
             <li>As of March 2023, I do not collect any other personal information.</li>
@@ -51,46 +52,39 @@
     <h2 class="text-xl my-5" id="how-collect">
         How do I collect your data?
     </h2>
-    <p>
-
-    You directly provide me with most of the data I collect. 
-    I collect data and process data when you:
-
+    <p>You directly provide me with most of the data I collect. 
+        I collect data and process data when you contact me via e-mail, phone or the contact form on this website.</p>
+<!--
         Register online or place an order for any of our products or services.
         Voluntarily complete a customer survey or provide feedback on any of our message boards or via email.
         Use or view our website via your browser’s cookies.
         [Add any other ways I collect data]
-
+-->
+        <!--
     I may also receive your data indirectly from the following sources:
 
-        [Add any indirect source of data I has]
-    </p>
-
+        [Add any indirect source of data I have]
+-->
     <h2 class="text-xl my-5" id="how-use">
         How will I use your data?
     </h2>
-
-
-I collect your data so that I can:
-
-    Process your order and manage your account.
-    Email you with special offers on other products and services I think you might like.
-    [Add how else I uses data]
-
+    <p>I collect your data so that I can process your inquiries and orders.</p>
+<!--
 If you agree, I will share your data with our partner companies so that they may offer you their products and services.
 
     [List organizations that will receive data]
 
-When I processes your order, it may send your data to, and also use the resulting information from, credit reference agencies to prevent fraudulent purchases.
+When I process your order, I may send your data to, and also use the resulting information from, credit reference agencies to prevent fraudulent purchases.
+-->
 
 <h2 class="text-xl my-5" id="how-store">
     How do I store your data?
 </h2>
 
-I securely store your data at [enter the location and describe security precautions taken].
+I will keep your e-mail address and phone number for a period of two years beyond our latest contact.
+Once this time period has expired, I will delete your data.
 
-I will keep your [enter type of data] for [enter time period]. Once this time period has expired, I will delete your data by [enter how you delete users’ data].
-
+<!--
 <h2 class="text-xl my-5" id="marketing">
     Marketing
 </h2>
@@ -104,90 +98,108 @@ If you have agreed to receive marketing, you may always opt out at a later date.
 You have the right at any time to stop I from contacting you for marketing purposes or giving your data to other members of the I Group.
 
 If you no longer wish to be contacted for marketing purposes, please click here.
-
+-->
 <h2 class="text-xl my-5" id="rights">
     What are your data protection rights?
 </h2>
+<p>
+As a natural person and visitor of this website, you have various rights with regards to your privacy:
+</p>
+<ul>
+    <li>
+        <b>The right to access</b>: You have the right to request I for copies of your personal data. 
+        I may charge you a small fee for this service.
+</li>
+<li>
+<b>The right to rectification</b>: You have the right to request that I correct any information you believe is inaccurate. 
+You also have the right to request I to complete the information you believe is incomplete.
+</li>
+<li>
+<b>The right to erasure</b>: You have the right to request that I erase your personal data, under certain conditions.
+</li>
+<li>
+<b>The right to restrict processing</b>: You have the right to request that I restrict the processing of your personal data, under certain conditions.
+</li>
+<li>
+<b>The right to object to processing</b>: You have the right to object to the processing of your personal data, under certain conditions.
+</li>
+<li>
+<b>The right to data portability</b>: You have the right to request that I transfer the data that I have collected to another organization, or directly to you, under certain conditions.
+</li>
+</ul>
+<p>
+If you make a request, I have to respond to you within one month. 
+If you would like to exercise any of these rights, please contact me via <a href="/contact">email or contact form</a>.
+</p>
 
-I would like to make sure you are fully aware of all of your data protection rights. Every user is entitled to the following:
-
-The right to access – You have the right to request I for copies of your personal data. I may charge you a small fee for this service.
-
-The right to rectification – You have the right to request that I correct any information you believe is inaccurate. You also have the right to request I to complete the information you believe is incomplete.
-
-The right to erasure – You have the right to request that I erase your personal data, under certain conditions.
-
-The right to restrict processing – You have the right to request that I restrict the processing of your personal data, under certain conditions.
-
-The right to object to processing – You have the right to object to I’s processing of your personal data, under certain conditions.
-
-The right to data portability – You have the right to request that I transfer the data that I have collected to another organization, or directly to you, under certain conditions.
-
-If you make a request, I have one month to respond to you. If you would like to exercise any of these rights, please contact us at our email:
-
-Call us at:
-
-Or write to us:
 <h2 class="text-xl my-5" id="cookies">
     Cookies
 </h2>
+<p>Cookies are text files placed on your computer to collect standard Internet log information and visitor behavior information.</p>
+<p>When you visit my website, I may collect information from you automatically through cookies or similar technology.</p>
+<p>For further information, visit <a href="https://allaboutcookies.org">https://allaboutcookies.org</a>.</p>
 
-Cookies are text files placed on your computer to collect standard Internet log information and visitor behavior information. When you visit our websites, I may collect information from you automatically through cookies or similar technology
-
-For further information, visit allaboutcookies.org.
 <h2 class="text-xl my-5" id="how-cookies">
     How do I use cookies?
 </h2>
-
+<!--
+<p>
 I uses cookies in a range of ways to improve your experience on our website, including:
 
     Keeping you signed in
     Understanding how you use our website
     [Add any uses I has for cookies]
 
-What types of cookies do I use?
+<h2 class="text-xl my-5" id="manage-cookies">
+    What types of cookies do I use?
+</h2>
+-->
+<p>
+    This website does not use cookies.
+</p>
+<!--
 
-There are a number of different types of cookies, however, our website uses:
+There are a number of different types of cookies. 
+My website uses:
 
-    Functionality – I uses these cookies so that I recognize you on our website and remember your previously selected preferences. These could include what language you prefer and location you are in. A mix of first-party and third-party cookies are used.
-    Advertising – I uses these cookies to collect information about your visit to our website, the content you viewed, the links you followed and information about your browser, device, and your IP address. I sometimes shares some limited aspects of this data with third parties for advertising purposes. I may also share online data collected through cookies with our advertising partners. This means that when you visit another website, you may be shown advertising based on your browsing patterns on our website.
+    Functionality – I use these cookies so that I recognize you on our website and remember your previously selected preferences. 
+    These could include what language you prefer and location you are in. A mix of first-party and third-party cookies are used.
+    Advertising – I use these cookies to collect information about your visit to our website, the content you viewed, the links you followed and information about your browser, device, and your IP address. I sometimes shares some limited aspects of this data with third parties for advertising purposes. I may also share online data collected through cookies with our advertising partners. This means that when you visit another website, you may be shown advertising based on your browsing patterns on our website.
     [Add any other types of cookies I uses]
+-->
 
 <h2 class="text-xl my-5" id="manage-cookies">
     How to manage cookies
 </h2>
 
+<p>
+You can set your browser not to accept cookies, and the above website tells you how to remove cookies from your browser. 
+However, in a few cases, some of my website features may not function as a result.
+</p>
 
-You can set your browser not to accept cookies, and the above website tells you how to remove cookies from your browser. However, in a few cases, some of our website features may not function as a result.
 <h2 class="text-xl my-5" id="other-sites">
     Privacy policies of other websites
 </h2>
 
-The I website contains links to other websites. Our privacy policy applies only to our website, so if you click on a link to another website, you should read their privacy policy.
+<p>
+My website contains links to other websites. 
+If you choose to visit other sites by clicking on these links, please be aware that other privacy policies will apply.
+</p>
+
 <h2 class="text-xl my-5" id="changes">
-    Changes to our privacy policy
+    Changes to my privacy policy
 </h2>
+<p>
+I keep this privacy policy under regular review. 
+This privacy policy was last updated on March 26th 2023.
+</p>
 
-I keeps its privacy policy under regular review and places any updates on this web page. This privacy policy was last updated on 9 January 2019.
 <h2 class="text-xl my-5" id="contact">
-    How to contact us
+    How to contact me
 </h2>
 
-If you have any questions about my privacy policy, the data I hold on you, or you would like to exercise one of your data protection rights, please do not hesitate to contact us.
+<p>
+If you have any questions about my privacy policy, the data I hold on you, or you would like to exercise one of your data protection rights, please do not hesitate to contact me.
+</p>
 
-Email me at:
-
-Call me at:
-
-Or write to me at:
-<h2 class="text-xl my-5" id="contact-authority">
-    How to contact the appropriate authority
-</h2>
-
-
-Should you wish to report a complaint or if you feel that I has not addressed your concern in a satisfactory manner, you may contact the Information Commissioner’s Office.
-
-Email:
-
-Address
 </div>

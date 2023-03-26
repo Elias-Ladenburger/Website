@@ -6,7 +6,7 @@
 ]
 </script>
 
-<section class="bg-primary top-0 right-0 px-10 py-16 bg-gray-800 z-50
+<section class="text-primary top-0 right-0 px-10 py-5 md:py-16 bg-gray-800 z-50
 relative flex md:p-0 md:space-x-6">
     <ul class="md:px-8 list-reset md:flex justify-center text-center flex-1 items-center">
         {#each menu as navItem}

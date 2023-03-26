@@ -5,7 +5,7 @@
   let heroCTA = {title:"Help me?", link:"contact"}
 </script>
 
-<Hero heroTitle="Hi! I am <em class='bg-emphasis text-primary'>Elias Ladenburger</em>."
+<Hero heroTitle="Hi! I am <em class='bg-primaryContrast text-primary'>Elias Ladenburger</em>."
   heroSubtitle="I can probably help you."
   >
   <Button label={heroCTA.title} link={heroCTA.link}/>
