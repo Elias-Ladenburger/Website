@@ -8,7 +8,7 @@ import Hero from "$lib/Hero.svelte";
     }
 </script>
 
-<div id="privacy-policy" class="mx-5 text-primaryContrast text-md">
+<div id="privacy-policy" class="mx-5 text-md">
     <section id="policy-header" class="">
         <h1 class="text-2xl my-5">
             Privacy Policy

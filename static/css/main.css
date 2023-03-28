@@ -633,12 +633,12 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.list-disc {
-  list-style-type: disc;
-}
-
 .list-checkmark {
   list-style-type: checkmark;
+}
+
+.list-disc {
+  list-style-type: disc;
 }
 
 .columns-2 {
@@ -713,6 +713,10 @@ video {
 
 .p-5 {
   padding: 1.25rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
 }
 
 .px-10 {
@@ -930,6 +934,10 @@ video {
 
   .md\:p-28 {
     padding: 7rem;
+  }
+
+  .md\:p-5 {
+    padding: 1.25rem;
   }
 
   .md\:px-4 {

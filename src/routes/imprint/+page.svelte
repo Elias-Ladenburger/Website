@@ -6,7 +6,7 @@
     }
 </script>
 
-<div id="imprint" class="mx-5 text-primaryContrast text-sm">
+<div id="imprint" class="mx-5 text-sm">
     <section id="imprint-header" class="">
         <h1 class="text-2xl my-5">
             Imprint
