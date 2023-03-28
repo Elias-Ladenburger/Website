@@ -1,9 +1,6 @@
 <script>
-    $: myMail = "click to show mail";
-
-    function showMail() {
-        myMail = "<a href='mailto:contact@eliasladenburger.com'>contact@eliasladenburger.com</a>"
-    }
+    import Mail from "$lib/Mail.svelte";
+    
 </script>
 
 <div id="imprint" class="mx-5 text-sm">
@@ -22,10 +19,7 @@
         </p>
 
         <p>
-            Email: 
-            <em class="underline hover:no-underline hover:cursor-pointer text-emphasis" on:click="{()=>showMail()}">
-                {@html myMail}
-            </em>
+            Email: <Mail/>
         </p>
     </section>
 

@@ -4,7 +4,7 @@
 </script>
 
 {#if label}
-    <a href="/{link}"
+    <a href="/{link}" {...$$props}
     class="lg:mx-0 my-6 py-4 px-8
     bg-emphasis text-primary font-bold md:text-xl text-sm
     hover:underline hover:scale-105
