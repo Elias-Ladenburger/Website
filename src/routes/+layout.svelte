@@ -4,10 +4,13 @@
 	import Footer from '$lib/Footer.svelte';
 </script>
 <Header/>
-<hr class="hidden md:flex border-b border-primaryContrast my-0 py-0"/>
 
-<div class="bg-primary">
+<!--
+	<hr class="hidden md:flex border-b border-primaryContrast my-0 py-0 md:opacity-25"/>
+-->
+
+<div class="text-primary">
 <slot/>
 </div>
-<hr class="hidden md:flex border-b border-primaryContrast my-0 py-0"/>
+<!-- <hr class="hidden md:flex border-b border-primaryContrast my-0 py-0"/>-->
 <Footer/>

@@ -4,6 +4,14 @@ const colors = require('tailwindcss/colors');
 module.exports = {
   content: ["./src/**/*.{svelte,html,js}"],
   theme: {
+    listStyleType: {
+      none: 'none',
+      disc: 'disc',
+      decimal: 'decimal',
+      square: 'square',
+      roman: 'upper-roman',
+      checkmark: 'checkmark',
+    },
     extend: {
       spacing: {
         '128': '32rem',
@@ -14,8 +22,13 @@ module.exports = {
       }
     },
     colors: {
-      primary: colors.white,
-      primaryContrast: "#161633",
+      primary: colors.white, 
+      primaryContrast: "#21395e",
+      primaryGradient1: "00344b",
+      primaryGradient2: "#002b32",
+      primaryGradient3: "#00211a",
+      primaryGradient4: "#011601",
+
       emphasis: "#C98D26",
       secondary: "",
       secondaryContrast: "",

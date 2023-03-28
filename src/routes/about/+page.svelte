@@ -5,36 +5,57 @@
   let heroCTA = {title:"Help me?", link:"contact"}
 </script>
 
-<Hero heroTitle="Hi! I am <em class='bg-primaryContrast text-primary'>Elias Ladenburger</em>."
-  heroSubtitle="I can probably help you."
+<Hero heroTitle="Hi! I am <em class='bg-emphasis text-primary'>Elias Ladenburger</em>."
+  heroSubtitle="And I can certainly help you."
   >
   <Button label={heroCTA.title} link={heroCTA.link}/>
   </Hero>
 
-  <!--
-  <section id="experience">
-    <div class="md:grid md:grid-cols-2 md:gap-4 justify-center items-center space-x-5 text-center">
+  <section id="experience" class=" justify-center">
 
-      <div class="border border-solid border-primaryContrast rounded">
-        <h3 class="text-lg">eCommerce</h3>
-        <p class="mx-5">I have extensive experience working on online stores.</p>
+    <div class="md:grid md:grid-cols-2 gap-2 text-lg text-left spacing-y-5 md:spacing-0">
+      <div class="p-5 my-5 bg-primary text-primaryContrast rounded-2xl ">
+        <h2 class="text-xl text-center">My <em class="bg-emphasis text-primary">Philosophy</em></h2>
+        <p>I work with companies whose values align with my own. I stay with partners for the long term. I treat your company as though it were mine. Your success is my success.</p>
       </div>
 
-      <div class="border border-solid border-primaryContrast rounded">
-        <h3 class="text-lg">eCommerce</h3>
-        <p class="mx-5">I have extensive experience working on online stores</p>
+      <div class="p-5 my-5 bg-primary text-primaryContrast rounded-2xl">
+        <h2 class="text-center text-xl">My <em class="bg-emphasis text-primary">Methodology</em></h2>
+        <p>There is no execution without clarity of vision. We will first discuss your expectations, align on your goals and intended outcomes. Only then will be proceed with implementation.</p>
+        <p>as</p>
       </div>
-      <div class="border border-solid border-primaryContrast rounded">
-        <h3 class="text-lg">eCommerce</h3>
-        <p class="mx-5">I have extensive experience working on online stores</p>
+        
+      <div class="p-5 my-5 bg-primary text-primaryContrast rounded-2xl">
+        <h2 class="text-center text-xl">My <em class="bg-emphasis text-primary">Service Offer</em></h2>
+        <p>For <b>small and medium companies</b>:</p>
+        <ul class="list-disc mx-5 mb-5">
+          <li>"first guy to call with questions",</li>
+          <li>product discovery, and definition of requirements,</li>
+          <li>searching, vetting and coordinating other freelancers and agencies.</li>
+          </ul>
+        <p >For <b>corporates and large companies</b>:</p>
+        <ul class="list-disc mx-5">
+          <li>Tech project management,</li>
+          <li>interim management of tech products,</li>
+          <li>process analysis, re-engineering and automation.</li>
+        </ul>
       </div>
-      <div class="border border-solid border-primaryContrast rounded">
-        <h3 class="text-lg">eCommerce</h3>
-        <p class="mx-5">I have extensive experience working on online stores</p>
+
+      <div class="p-5 my-5 bg-primary text-primaryContrast rounded-2xl">
+        <h2 class="text-center text-xl">My <em class="bg-emphasis text-primary">Stack</em></h2>
+        <p>I am proficient with:</p>
+        <ul class="list-checkmark mx-5">
+          <li>HTML, CSS and Javascript,</li>
+          <li>the MERN Stack,</li>
+          <li>Python, Flask and Jenja2,</li>
+          <li>Shopify Admin, Liquid and Shopify Apps,</li>
+          <li>Jira, Confluence, Notion and Slack,</li>
+          <li>MS Office and VBA.</li>
+        </ul>
       </div>
     </div>
-  </section>
-
-  <section id="bio">
+      <div class="justify-center text-center p-5">
+        <Button label="I want your help!" link={heroCTA.link}/>
+      </div>
+  
     </section>
-    -->

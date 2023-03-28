@@ -8,7 +8,7 @@
 {/if}
 
 <Hero heroTitle="Contact">
-    <div class="bg-primary justify-center items-center flex columns-2">
+    <div class="justify-center items-center flex columns-2">
         <div class="text-lg text-primaryContrast">
         </div>
         <button data-tf-popup="httoRs8q" 
