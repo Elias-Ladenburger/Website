@@ -9,7 +9,7 @@
   >
   <Button label="Lean more!" link="about"/>
 </Hero>
-<div class="bg-opacity-90 bg-primary text-primaryContrast text-center p-5 md:flex flex-none">
+<div class="bg-opacity-90 rounded-lg bg-primary text-primaryContrast text-center p-5 md:flex flex-none">
   <p class="text-lg md:mx-24 ">I am a freelancer who walks the line between business and technology.
     This allows me to be your <b class="bg-emphasis text-primary">general practitioner for tech</b>: Your <b>first point of contact for all questions relating to software development, procurement and management</b>.
     I have a foot in the world of small companies and large corporates alike. 

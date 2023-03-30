@@ -11,7 +11,7 @@
   <Button label={heroCTA.title} link={heroCTA.link}/>
   </Hero>
 
-  <section id="experience" class=" justify-center">
+  <section id="experience" class="justify-center">
 
     <div class="md:grid md:grid-cols-2 gap-2 text-lg text-left spacing-y-5 md:spacing-0 p-3 md:p-5">
       <div class="p-5 my-5 bg-primary text-primaryContrast rounded-2xl ">
