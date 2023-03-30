@@ -17,7 +17,7 @@
  
  </script>
  
- <nav class="text-primary">
+ <nav class="text-primary bg-gradient-to-r from-primaryContrast to-primaryGradient4 fixed w-full">
      <div class="">
          <!-- This is used to open the menu on mobile devices -->
         <div class="md:hidden">

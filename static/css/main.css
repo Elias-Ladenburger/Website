@@ -547,6 +547,10 @@ video {
   }
 }
 
+.fixed {
+  position: fixed;
+}
+
 .relative {
   position: relative;
 }
@@ -625,6 +629,11 @@ video {
   width: 100%;
 }
 
+.w-max {
+  width: -moz-max-content;
+  width: max-content;
+}
+
 .flex-1 {
   flex: 1 1 0%;
 }
@@ -700,21 +709,44 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-primaryGradient2 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 43 50 / var(--tw-bg-opacity));
+}
+
+.bg-primaryGradient3 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 33 26 / var(--tw-bg-opacity));
+}
+
 .bg-primaryContrast {
   --tw-bg-opacity: 1;
   background-color: rgb(33 57 94 / var(--tw-bg-opacity));
+}
+
+.bg-primaryGradient4 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(1 22 1 / var(--tw-bg-opacity));
+}
+
+.bg-opacity-80 {
+  --tw-bg-opacity: 0.8;
 }
 
 .bg-opacity-90 {
   --tw-bg-opacity: 0.9;
 }
 
-.bg-opacity-0 {
-  --tw-bg-opacity: 0;
+.bg-opacity-50 {
+  --tw-bg-opacity: 0.5;
 }
 
 .bg-gradient-to-br {
   background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+}
+
+.bg-gradient-to-tr {
+  background-image: linear-gradient(to top right, var(--tw-gradient-stops));
 }
 
 .bg-gradient-to-r {
@@ -724,18 +756,6 @@ video {
 .from-primaryContrast {
   --tw-gradient-from: #21395e;
   --tw-gradient-to: rgb(33 57 94 / 0);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
-.from-emphasis {
-  --tw-gradient-from: #C98D26;
-  --tw-gradient-to: rgb(201 141 38 / 0);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
-.from-primaryGradient2 {
-  --tw-gradient-from: #002b32;
-  --tw-gradient-to: rgb(0 43 50 / 0);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
@@ -749,8 +769,8 @@ video {
   --tw-gradient-to: #011601;
 }
 
-.to-primaryGradient2 {
-  --tw-gradient-to: #002b32;
+.to-blueMidnight {
+  --tw-gradient-to: #191970;
 }
 
 .p-3 {
@@ -883,12 +903,8 @@ video {
   text-decoration-line: none;
 }
 
-.opacity-80 {
-  opacity: 0.8;
-}
-
-.opacity-70 {
-  opacity: 0.7;
+.opacity-50 {
+  opacity: 0.5;
 }
 
 .shadow-lg {
@@ -948,6 +964,10 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:fixed {
+    position: fixed;
+  }
+
   .md\:mx-24 {
     margin-left: 6rem;
     margin-right: 6rem;

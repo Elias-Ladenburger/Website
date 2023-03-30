@@ -9,7 +9,7 @@
     bg-emphasis text-primary font-bold md:text-xl text-sm
     hover:underline hover:scale-105
     rounded-full shadow-lg 
-    focus:outline-none focus:shadow-outline transform transition  duration-300 ease-in-out">
+    focus:outline-none focus:shadow-outline transition duration-300 ease-in-out">
         {label}
     </a>
 
