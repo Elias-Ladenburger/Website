@@ -3,7 +3,7 @@
     export let heroSubtitle = "";
   </script>
   
-  <div class="md:p-28 pt-24 text-center text-primaryContrast">
+  <div class="mx-10 pt-24 text-center">
     <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
       <!--Left Col-->
       <div class="flex flex-col w-full justify-center items-center text-center">

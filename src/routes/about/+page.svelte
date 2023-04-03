@@ -5,17 +5,28 @@
   let heroCTA = {title:"Help me?", link:"contact"}
 </script>
 
-<Hero heroTitle="Hi! I am <em class='bg-primaryContrast text-primary'>Elias Ladenburger</em>."
+<Hero heroTitle="Hi! I am <em class='bg-yellow'>Elias Ladenburger</em>."
   heroSubtitle="And I can certainly help you."
   >
   <Button label={heroCTA.title} link={heroCTA.link}/>
   </Hero>
 
-  <section id="experience" class="justify-center">
+  <section id="bio" class="bg-navy justify-content ">
+    <div class="md:grid md:grid-cols-2 gap-2 text-lg text-left spacing-y-5 md:spacing-0 p-3 md:p-5">
+      <img src="./img/Profile transparent.png" alt="Elias Ladenburger"/>
+      <div class="p-5 my-5 text-primary rounded-2xl">
+        <p>
+          Born somewhere in Germany, I lived in 7 and worked in 5 cities.
+        </p>
+        </div>
+      </div>
+  </section>
+
+  <section id="experience" class="justify-center bg-teal">
 
     <div class="md:grid md:grid-cols-2 gap-2 text-lg text-left spacing-y-5 md:spacing-0 p-3 md:p-5">
       <!--
-      <div class="p-5 my-5 bg-primaryContrast text-primary rounded-2xl ">
+      <div class="p-5 my-5 bg-primaryContrast text-primary rounded-2xl">
         <h2 class="text-xl text-center">My <em class="bg-primaryContrast text-primary">Philosophy</em></h2>
         <p>I work with companies whose values align with my own. I stay with partners for the long term. I treat your company as though it were mine. Your success is my success.</p>
       </div>
@@ -42,23 +53,8 @@
           <li>process analysis, re-engineering and automation.</li>
         </ul>
       </div>
-
-      <!--
-      <div class="p-5 my-5 bg-primary text-primaryContrast rounded-2xl">
-        <h2 class="text-center text-xl">My <em class="bg-emphasis text-primary">Stack</em></h2>
-        <p>I am proficient with:</p>
-        <ul class="list-checkmark mx-5">
-          <li>HTML, CSS and Javascript,</li>
-          <li>the MERN Stack,</li>
-          <li>Python, Flask and Jenja2,</li>
-          <li>Shopify Admin, Liquid and Shopify Apps,</li>
-          <li>Jira, Confluence, Notion and Slack,</li>
-          <li>MS Office and VBA.</li>
-        </ul>
-      </div>
-      -->
     </div>
-      <div class="justify-center text-center p-5 mb-5">
+      <div class="justify-center text-center pb-10 mb-5">
         <Button label="I want your help!" link={heroCTA.link}/>
       </div>
   
