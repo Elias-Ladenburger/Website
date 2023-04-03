@@ -9,7 +9,7 @@
 	<hr class="hidden md:flex border-b border-primaryContrast my-0 py-0 md:opacity-25"/>
 -->
 
-<div class="">
+<div class="pt-7 md:pt-0">
 <slot/>
 </div>
 <!-- <hr class="hidden md:flex border-b border-primaryContrast my-0 py-0"/>-->

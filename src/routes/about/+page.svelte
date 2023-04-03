@@ -11,22 +11,12 @@
   <Button label={heroCTA.title} link={heroCTA.link}/>
   </Hero>
 
-  <section id="bio" class="bg-navy justify-content ">
-    <div class="md:grid md:grid-cols-2 gap-2 text-lg text-left spacing-y-5 md:spacing-0 p-3 md:p-5">
-      <img src="./img/Profile transparent.png" alt="Elias Ladenburger"/>
-      <div class="p-5 my-5 text-primary rounded-2xl">
-        <p>
-          Born somewhere in Germany, I lived in 7 and worked in 5 cities.
-        </p>
-        </div>
-      </div>
-  </section>
 
   <section id="experience" class="justify-center bg-teal">
 
     <div class="md:grid md:grid-cols-2 gap-2 text-lg text-left spacing-y-5 md:spacing-0 p-3 md:p-5">
       <!--
-      <div class="p-5 my-5 bg-primaryContrast text-primary rounded-2xl">
+      <div class="p-5 my-5 bg-primaryContrast text-primary rounded-2xl ">
         <h2 class="text-xl text-center">My <em class="bg-primaryContrast text-primary">Philosophy</em></h2>
         <p>I work with companies whose values align with my own. I stay with partners for the long term. I treat your company as though it were mine. Your success is my success.</p>
       </div>

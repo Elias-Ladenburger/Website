@@ -6,7 +6,7 @@
 
 
 <div class="md:grid md:grid-cols-2 gap-2 text-lg bg-teal text-white text-left spacing-y-5 md:spacing-0 items-center">  
-  <Hero heroTitle="The <em class='bg-primaryContrast text-primary'>general practitioner</em> for tech."
+  <Hero heroTitle="The <em class='bg-primaryContrast text-primary'>general practitioner</em> for tech projects."
       heroSubtitle="Problem Solving. Process Improvement. Product Development."
       >
       <Button label="Lean more!" link="about"/>
