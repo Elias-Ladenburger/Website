@@ -563,6 +563,10 @@ video {
   top: 0px;
 }
 
+.top-5 {
+  top: 1.25rem;
+}
+
 .z-50 {
   z-index: 50;
 }
@@ -620,6 +624,34 @@ video {
   margin-right: 1.25rem;
 }
 
+.mt-7 {
+  margin-top: 1.75rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mt-12 {
+  margin-top: 3rem;
+}
+
+.mt-24 {
+  margin-top: 6rem;
+}
+
+.mb-24 {
+  margin-bottom: 6rem;
+}
+
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -638,6 +670,10 @@ video {
 
 .hidden {
   display: none;
+}
+
+.h-24 {
+  height: 6rem;
 }
 
 .w-full {
@@ -732,8 +768,40 @@ video {
   background-color: rgb(251 192 45 / var(--tw-bg-opacity));
 }
 
+.bg-opacity-50 {
+  --tw-bg-opacity: 0.5;
+}
+
 .bg-opacity-90 {
   --tw-bg-opacity: 0.9;
+}
+
+.bg-opacity-80 {
+  --tw-bg-opacity: 0.8;
+}
+
+.bg-abstractBG {
+  background-image: url('../img/Backgroundimage.jpg');
+}
+
+.bg-\[url\(\)\] {
+  background-image: url();
+}
+
+.bg-\[url\(\.\.\/\)\] {
+  background-image: url(../);
+}
+
+.bg-\[url\(\.\.\/img\/bgLamps\.jpg\)\] {
+  background-image: url(../img/bgLamps.jpg);
+}
+
+.bg-\[url\(\.\/img\/bgLamps\.jpg\)\] {
+  background-image: url(./img/bgLamps.jpg);
+}
+
+.bg-\[url\(\.\.\/img\/bgLamps\.jpeg\)\] {
+  background-image: url(../img/bgLamps.jpeg);
 }
 
 .p-3 {
@@ -742,6 +810,10 @@ video {
 
 .p-5 {
   padding: 1.25rem;
+}
+
+.p-12 {
+  padding: 3rem;
 }
 
 .px-10 {
@@ -789,6 +861,21 @@ video {
   padding-bottom: 1.25rem;
 }
 
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .pb-1 {
   padding-bottom: 0.25rem;
 }
@@ -805,8 +892,8 @@ video {
   padding-top: 1.25rem;
 }
 
-.pt-7 {
-  padding-top: 1.75rem;
+.pb-5 {
+  padding-bottom: 1.25rem;
 }
 
 .text-left {
@@ -923,6 +1010,11 @@ video {
   background-color: rgb(251 192 45 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-emphasis:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(201 141 38 / var(--tw-bg-opacity));
+}
+
 .hover\:text-navy:hover {
   --tw-text-opacity: 1;
   color: rgb(10 28 61 / var(--tw-text-opacity));
@@ -970,6 +1062,10 @@ video {
 
   .md\:ml-0 {
     margin-left: 0px;
+  }
+
+  .md\:mt-0 {
+    margin-top: 0px;
   }
 
   .md\:flex {

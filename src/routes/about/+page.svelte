@@ -5,12 +5,15 @@
   let heroCTA = {title:"Help me?", link:"contact"}
 </script>
 
-<Hero heroTitle="Hi! I am <em class='bg-yellow'>Elias Ladenburger</em>."
-  heroSubtitle="And I can certainly help you."
-  >
-  <Button label={heroCTA.title} link={heroCTA.link}/>
-  </Hero>
-
+<div class="bg-[url(../img/bgLamps.jpeg)]">
+  <div class="bg-navy bg-opacity-80 text-primary py-24">
+    <Hero heroTitle="Hi! I am <em class='bg-teal'>Elias Ladenburger</em>."
+      heroSubtitle="And I can certainly help you."
+      >
+      <Button label={heroCTA.title} link={heroCTA.link}/>
+      </Hero>
+    </div>
+</div>
 
   <section id="experience" class="justify-center bg-teal">
 
@@ -44,7 +47,7 @@
         </ul>
       </div>
     </div>
-      <div class="justify-center text-center pb-10 mb-5">
+      <div class="justify-center text-center py-10 mb-5 bg-navy">
         <Button label="I want your help!" link={heroCTA.link}/>
       </div>
   

@@ -50,6 +50,9 @@ module.exports = {
 		  black: colors.black,
       //white: colors.white,
     },
+    backgroundImage: {
+      abstractBG: "url('../img/Backgroundimage.jpg')"
+    },
     fontFamily: {
       sans: ["Helvetica"],
       serif: []

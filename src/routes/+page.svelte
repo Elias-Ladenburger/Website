@@ -4,16 +4,16 @@
   import Button from "$lib/Button.svelte"
 </script>
 
-
-<div class="md:grid md:grid-cols-2 gap-2 text-lg bg-teal text-white text-left spacing-y-5 md:spacing-0 items-center">  
-  <Hero heroTitle="The <em class='bg-primaryContrast text-primary'>general practitioner</em> for tech projects."
+<div class="bg-abstractBG">
+<div class="md:grid md:grid-cols-2 gap-2 text-lg text-white text-left spacing-y-5 md:spacing-0 items-center  bg-navy bg-opacity-80">  
+  <Hero heroTitle="The <em class='bg-teal text-primary'>general practitioner</em> for tech projects."
       heroSubtitle="Problem Solving. Process Improvement. Product Development."
       >
       <Button label="Lean more!" link="about"/>
     </Hero>
     <img src="./img/Profile transparent.png" alt="Elias Ladenburger" class="pt-5"/>
   </div>
-
+</div>
 <div class="bg-opacity-90 bg-white text-navy text-center p-5 md:flex flex-none">
   <p class="text-lg md:mx-24 ">I am a freelancer who walks the line between business and technology.
     This allows me to be your <b class="bg-primaryContrast text-primary">general practitioner for tech</b>: Your <b>first point of contact for all questions relating to software development, procurement and management</b>.

@@ -3,8 +3,7 @@
     export let heroSubtitle = "";
   </script>
   
-  <div class="mx-10 pt-24 text-center">
-    <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+    <div class="container p-5 mx-auto flex flex-wrap flex-col md:flex-row items-center">
       <!--Left Col-->
       <div class="flex flex-col w-full justify-center items-center text-center">
         <h1 class="md:text-5xl sm:text-4xl text-3xl font-bold leading-tight ">
@@ -18,4 +17,3 @@
         <slot />
       </div>
     </div>
-  </div>
