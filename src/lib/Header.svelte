@@ -18,7 +18,7 @@
  </script>
  
 
- <nav class="bg-navy text-primary fixed w-full top-0">
+ <nav class="bg-navy text-primary fixed w-full top-0 ">
         <!-- This is used to open the menu on mobile devices -->
    <div class="md:hidden fixed bg-navy w-full">
     <button class="text-4xl font-bold duration-300 hover:opacity-70 mx-2"

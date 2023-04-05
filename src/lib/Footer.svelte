@@ -9,6 +9,9 @@
     <section class="top-0 right-0 px-10 py-5 md:py-16 bg-gray-800 z-50
 relative flex md:p-0 md:space-x-6">
     <ul class="md:px-8 list-reset md:flex justify-center text-center flex-1 items-center">
+        <li>
+            <i class="fa-solid fa-linkedin">Some text</i>
+        </li>
         {#each menu as navItem}
         <li class="mr-5">
             <a href="/{navItem.slug}"
