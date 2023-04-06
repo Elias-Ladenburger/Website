@@ -5,7 +5,7 @@
   let heroCTA = {title:"Help me?", link:"contact"}
 </script>
 
-<div class="bg-[url(../img/bgLamps.jpeg)]">
+<div class="bg-abstractBG">
   <div class="bg-navy bg-opacity-80 text-primary py-24">
     <Hero heroTitle="Hi! I am <em class='bg-teal'>Elias Ladenburger</em>."
       heroSubtitle="And I can certainly help you."
