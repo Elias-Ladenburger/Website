@@ -10,12 +10,12 @@ import Hero from "$lib/Hero.svelte";
 
 <div id="privacy-policy" class="mx-5 text-md">
     <section id="policy-header" class="">
-        <h1 class="text-2xl my-5">
+        <h1 class="text-2xl pt-8 mb-2">
             Privacy Policy
         </h1>
         <p>I am a strong advocate of privacy rights and do my utmost to protect your privacy.</p>
         <p>This policy describes in detail how I do so.</p>
-        <h2 class="text-xl my-5">
+        <h2 class="text-xl mt-5 mb-2">
             Topics
         </h2>
         <ul class="mx-5 list-disc">
@@ -38,7 +38,7 @@ import Hero from "$lib/Hero.svelte";
     </section>
 
 <section id="details"></section>
-    <h2 class="text-xl my-5" id="what-collect">
+    <h2 class="text-xl mt-5 mb-2" id="what-collect">
         What data do I collect?
     </h2>
 
@@ -49,7 +49,7 @@ import Hero from "$lib/Hero.svelte";
             <li>As of March 2023, I do not collect any other personal information.</li>
         </ul>
 
-    <h2 class="text-xl my-5" id="how-collect">
+    <h2 class="text-xl mt-5 mb-2" id="how-collect">
         How do I collect your data?
     </h2>
     <p>You directly provide me with most of the data I collect. 
@@ -65,7 +65,7 @@ import Hero from "$lib/Hero.svelte";
 
         [Add any indirect source of data I have]
 -->
-    <h2 class="text-xl my-5" id="how-use">
+    <h2 class="text-xl mt-5 mb-2" id="how-use">
         How will I use your data?
     </h2>
     <p>I collect your data so that I can process your inquiries and orders.</p>
@@ -77,7 +77,7 @@ If you agree, I will share your data with our partner companies so that they may
 When I process your order, I may send your data to, and also use the resulting information from, credit reference agencies to prevent fraudulent purchases.
 -->
 
-<h2 class="text-xl my-5" id="how-store">
+<h2 class="text-xl mt-5 mb-2" id="how-store">
     How do I store your data?
 </h2>
 
@@ -85,7 +85,7 @@ I will keep your e-mail address and phone number for a period of two years beyon
 Once this time period has expired, I will delete your data.
 
 <!--
-<h2 class="text-xl my-5" id="marketing">
+<h2 class="text-xl mt-5 mb-2" id="marketing">
     Marketing
 </h2>
 
@@ -99,13 +99,13 @@ You have the right at any time to stop I from contacting you for marketing purpo
 
 If you no longer wish to be contacted for marketing purposes, please click here.
 -->
-<h2 class="text-xl my-5" id="rights">
+<h2 class="text-xl mt-5 mb-2" id="rights">
     What are your data protection rights?
 </h2>
 <p>
 As a natural person and visitor of this website, you have various rights with regards to your privacy:
 </p>
-<ul>
+<ul class="list-disc mx-5">
     <li>
         <b>The right to access</b>: You have the right to request I for copies of your personal data. 
         I may charge you a small fee for this service.
@@ -132,14 +132,14 @@ If you make a request, I have to respond to you within one month.
 If you would like to exercise any of these rights, please contact me via <a href="/contact">email or contact form</a>.
 </p>
 
-<h2 class="text-xl my-5" id="cookies">
+<h2 class="text-xl mt-5 mb-2" id="cookies">
     Cookies
 </h2>
 <p>Cookies are text files placed on your computer to collect standard Internet log information and visitor behavior information.</p>
 <p>When you visit my website, I may collect information from you automatically through cookies or similar technology.</p>
 <p>For further information, visit <a href="https://allaboutcookies.org">https://allaboutcookies.org</a>.</p>
 
-<h2 class="text-xl my-5" id="how-cookies">
+<h2 class="text-xl mt-5 mb-2" id="how-cookies">
     How do I use cookies?
 </h2>
 <!--
@@ -150,7 +150,7 @@ I uses cookies in a range of ways to improve your experience on our website, inc
     Understanding how you use our website
     [Add any uses I has for cookies]
 
-<h2 class="text-xl my-5" id="manage-cookies">
+<h2 class="text-xl mt-5 mb-2" id="manage-cookies">
     What types of cookies do I use?
 </h2>
 -->
@@ -168,16 +168,15 @@ My website uses:
     [Add any other types of cookies I uses]
 -->
 
-<h2 class="text-xl my-5" id="manage-cookies">
+<h2 class="text-xl mt-5 mb-2" id="manage-cookies">
     How to manage cookies
 </h2>
-
 <p>
 You can set your browser not to accept cookies, and the above website tells you how to remove cookies from your browser. 
 However, in a few cases, some of my website features may not function as a result.
 </p>
 
-<h2 class="text-xl my-5" id="other-sites">
+<h2 class="text-xl mt-5 mb-2" id="other-sites">
     Privacy policies of other websites
 </h2>
 
@@ -186,7 +185,7 @@ My website contains links to other websites.
 If you choose to visit other sites by clicking on these links, please be aware that other privacy policies will apply.
 </p>
 
-<h2 class="text-xl my-5" id="changes">
+<h2 class="text-xl mt-5 mb-2" id="changes">
     Changes to my privacy policy
 </h2>
 <p>
@@ -194,7 +193,7 @@ I keep this privacy policy under regular review.
 This privacy policy was last updated on March 26th 2023.
 </p>
 
-<h2 class="text-xl my-5" id="contact">
+<h2 class="text-xl mt-5 mb-2" id="contact">
     How to contact me
 </h2>
 

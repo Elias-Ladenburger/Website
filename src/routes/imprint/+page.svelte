@@ -5,7 +5,7 @@
 
 <div id="imprint" class="mx-5 text-sm">
     <section id="imprint-header" class="">
-        <h1 class="text-2xl my-5">
+        <h1 class="text-2xl pt-8">
             Imprint
         </h1>
         <h2 class="text-xl my-5">
