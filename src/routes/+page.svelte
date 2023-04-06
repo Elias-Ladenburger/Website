@@ -14,7 +14,7 @@
       <Button label="Lean more!" link="#about" />
     </Hero>
     <img
-      src="./img/Profile transparent.png"
+      src="./img/Profile transparent.webp"
       alt="Elias Ladenburger"
       class="pt-5"
     />
@@ -23,7 +23,7 @@
 
 <section id="about" class="p-5 bg-teal text-primary">
   <div class="p-3 bg-primary text-primaryContrast rounded-2xl mb-5">
-    <h2 class="text-2xl bg-navy text-primary self-start">
+    <h2 class="text-2xl self-start">
       <em class="mx-2">About Me</em>
     </h2>
     <p class="text-xl self-center">
@@ -35,13 +35,10 @@
         expected
       </b>.
     </p>
-    <div class="my-4 text-center self-end">
-      <Button label="Get in touch!" link="/contact" bgColor="bg-navy" />
-    </div>
   </div>
 
   <div class="p-3 bg-primary text-primaryContrast rounded-2xl">
-    <h2 class="text-2xl bg-primaryContrast text-primary">
+    <h2 class="text-2xl">
       <em class="">Experience</em>
     </h2>
     <ul class="my-5 space-y-2">
