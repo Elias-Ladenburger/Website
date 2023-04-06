@@ -29,7 +29,7 @@
     <p class="text-xl self-center">
       I am a freelancer who walks the line between business and technology. This
       allows me to be your general practitioner for tech: <b
-        class="bg-navy text-white font-normal"
+        class="font-normal"
         >The first person to call when you find that you processes are not
         working, your projects are stuck or your product does not perform as
         expected
