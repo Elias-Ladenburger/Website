@@ -47,7 +47,7 @@
       </p>
     </div>
     <div class="text-center my-5">
-      <Button label="Get in touch!" link="/contact" />
+      <Button label="Get in touch!" link="mailto:contact@eliasladenburger.com" />
     </div>
   </div>
 </section>
