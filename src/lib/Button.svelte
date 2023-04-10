@@ -9,7 +9,7 @@
     font-bold md:text-xl text-sm
     rounded-full shadow-lg 
     focus:outline-none focus:shadow-outline transition duration-300 ease-in-out
-    hover:bg-yellow hover:text-navy ` + bgColor + " " + textColor 
+    hover:bg-opacity-70 ` + bgColor + " " + textColor 
 </script>
 
 {#if label}
