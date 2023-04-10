@@ -4,6 +4,7 @@
     export let bgColor = "bg-teal";
     export let textColor = "text-primary"
 
+
     let buttonClasses = ` lg:mx-0 my-6 py-4 px-8 
     font-bold md:text-xl text-sm
     rounded-full shadow-lg 
@@ -13,7 +14,8 @@
 
 {#if label}
     <a href="{link}" 
-    class={buttonClasses}>
+    class={buttonClasses}
+    {...$$restProps}>
         {label}
     </a>
   {/if}
