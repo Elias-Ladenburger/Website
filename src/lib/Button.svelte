@@ -7,9 +7,9 @@
 
     let buttonClasses = ` lg:mx-0 my-6 py-4 px-8 
     font-bold md:text-xl text-sm
-    rounded-full shadow-lg 
-    focus:outline-none focus:shadow-outline transition duration-300 ease-in-out
-    hover:bg-opacity-70 ` + bgColor + " " + textColor 
+    rounded-full shadow-lg
+     transition duration-300 ease-in-out
+    hover:opacity-70 ` + bgColor + " " + textColor
 </script>
 
 {#if label}

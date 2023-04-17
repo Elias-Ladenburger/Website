@@ -33,7 +33,7 @@
          <li class="mx-5 md:ml-0 my-3 md:my-1">
              <a class="inline-block py-2 px-4 
              font-bold no-underline
-             rounded-full bg-navy hover:bg-yellow hover:text-navy" href="{navElem.slug}" on:click="{showMenuOnMobile}">{navElem.name}</a>
+             rounded-full bg-navy hover:opacity-70 hover:text-white" href="{navElem.slug}" on:click="{showMenuOnMobile}">{navElem.name}</a>
          </li>
          {/each}
      </ul>

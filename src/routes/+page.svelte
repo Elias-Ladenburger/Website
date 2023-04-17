@@ -21,8 +21,8 @@
   </div>
 </div>
 
-<section id="about" class="py-32 md:px-24 bg-navy text-primary">
-  <div class="p-3 bg-primary text-navy rounded-2xl mb-5">
+<section id="about" class="py-12 px-5 md:py-32 md:px-24 bg-navy text-primary">
+  <div class="p-3 bg-primary text-navy rounded-2xl">
     <h2 class="text-2xl self-start">
       <em class="mx-2">About Me</em>
     </h2>
@@ -42,12 +42,12 @@
         <br />
       </p>
       <p>
-        I am now 26 years old. I do not like to stand still. I do like to take
+        I am now 26 years old. I do not like to stand still. What I do like is to take
         on interesting challenges.
       </p>
     </div>
     <div class="text-center my-5">
-      <Button label="Get in touch!" link="mailto:contact@eliasladenburger.com" />
+      <Button bgColor=bg-navy label="Get in touch!" link="mailto:contact@eliasladenburger.com" />
     </div>
   </div>
 </section>
