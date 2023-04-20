@@ -2,14 +2,15 @@
     export let label = "";
     export let link = "";
     export let bgColor = "bg-teal";
-    export let textColor = "text-primary"
+    export let textColor = "text-primary";
+    export let additionalClasses = "";
 
 
     let buttonClasses = ` lg:mx-0 my-6 py-4 px-8 
     font-bold md:text-xl text-sm
     rounded-full shadow-lg
      transition duration-300 ease-in-out
-    hover:opacity-70 ` + bgColor + " " + textColor
+    hover:opacity-70 ${bgColor} ${textColor} ${additionalClasses}`
 </script>
 
 {#if label}

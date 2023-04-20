@@ -19,6 +19,10 @@ module.exports = {
       },
       borderRadius: {
         '4xl': '2rem',
+      },
+      lineHeight: {
+        'slightly-loose': '1.15',
+        '12': '3rem',
       }
     },
     colors: {

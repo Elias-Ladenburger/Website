@@ -2,7 +2,7 @@
     export let menu=[
         {name: "Imprint", slug: "imprint"},
         {name: "Privacy Policy", slug: "privacy"},
-        {name: "Contact", slug: "contact"},
+        //{name: "Contact", slug: "contact"},
 ]
 </script>
 
