@@ -18,7 +18,7 @@
     <img
       src="./img/Profile transparent.webp"
       alt="Elias Ladenburger"
-      class="pt-5 h-full"
+      class="pt-5"
     />
   </div>
 </div>

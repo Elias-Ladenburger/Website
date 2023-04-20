@@ -30,9 +30,10 @@
     </button>
   </div>
   <div class="{showOnMobile} md:flex my-10 md:my-0 pb-1 md:pb-0 flex">
+    <!--
     <div class="hidden md:flex">
       <a href="/"><img src="./img/EL Logo.png" alt="Logo" class="w-12" /></a>
-    </div>
+    </div>-->
     <ul
       class="{showOnMobile} md:flex list-reset justify-end flex-1 items-center font-header
       bg-navy md:bg-opacity-0"

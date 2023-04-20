@@ -9,7 +9,7 @@
     <img
       src="./img/Selfie Transparent.png"
       alt="My face"
-      class=" bg-blueGrey w-32 h-fit md:mr-3"
+      class=" bg-blueGrey w-32 md:mr-3"
     />
     <div class="self-end">
       <p>
