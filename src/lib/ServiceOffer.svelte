@@ -15,7 +15,7 @@
     This being said, my areas of expertise can roughly be described as follows:
   </p>
   <div class="lg:grid lg:grid-cols-3 gap-2 align-top">
-    <div class="rounded-lg border-navy border-4 hover:bg-navy hover:text-white py-5 px-3">
+    <div class="rounded-lg border-blueGrey border-4 hover:bg-blueGrey hover:text-white  py-5 px-3">
       <h3 class="font-bold">Project Management</h3>
       <ul class="list-disc mx-4">
         <li>Interfacing between business stakeholders and implementation teams</li>
@@ -33,7 +33,7 @@
         <li>Testing and quality assurance</li>
       </ul>
     </div>
-    <div class="rounded-lg border-teal border-4 hover:bg-teal hover:text-white py-5 px-3">
+    <div class="rounded-lg border-blueGrey border-4 hover:bg-blueGrey hover:text-white  py-5 px-3">
       <h3 class="font-bold">Tech Consulting</h3>
       <ul class="list-disc mx-4">
         <li>Analyzing, automating and re-engineering cumbersome processes</li>

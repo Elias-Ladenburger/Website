@@ -6,11 +6,11 @@
 <TextSection sectionID="about">
   <h2 class="text-2xl font-bold self-start">About Me</h2>
   <div class="md:flex md:col-auto justify-end">
-    <img
+    <!--<img
       src="./img/Selfie Transparent.png"
       alt="My face"
-      class=" bg-blueGrey w-32 md:mr-3"
-    />
+      class=" bg-blueGrey w-32  md:mr-3"
+    />-->
     <div class="self-end">
       <p>
         I am a freelancer who walks the line between business and technology.
