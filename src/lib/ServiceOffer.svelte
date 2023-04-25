@@ -6,7 +6,7 @@
 <TextSection sectionID="services" bgColor="bg-navy">
   <h1 class="text-2xl font-bold">My Offer</h1>
   <p class="pb-3">
-    I am a versatile problem solver first and foremost. When choosing projects I
+    A versatile problem solver first and foremost. When choosing projects I
     prefer those that are in danger of going above budget, running over time or
     falling short of expected scope. I like to make cumbersome processes lean
     and help overwhelmed teams find inner peace.
