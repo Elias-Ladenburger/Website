@@ -3,7 +3,7 @@
   import Button from "./Button.svelte";
 </script>
 
-<TextSection sectionID="services" bgColor="bg-navy">
+<TextSection sectionID="services">
   <h1 class="text-2xl font-bold">My Offer</h1>
   <p class="pb-3">
     A versatile problem solver first and foremost. When choosing projects I
