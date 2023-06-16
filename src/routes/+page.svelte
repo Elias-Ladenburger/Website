@@ -10,8 +10,8 @@
     class="md:grid md:grid-cols-2 gap-2 text-lg text-white text-left spacing-y-5 md:spacing-0 items-center bg-navy bg-opacity-80"
   >
     <Hero
-      heroTitle="The <span class='bg-teal text-primary hover:text-navy px-1'>general practitioner</span> for your tech projects."
-      heroSubtitle="Solving problems. Saving projects. Building products."
+      heroTitle="Hi! My name is Elias Ladenburger."
+      heroSubtitle="I fill gaps in tech projects through agile coaching and product management."
     >
       <Button label="Lean more!" link="#about" />
     </Hero>
@@ -23,7 +23,6 @@
   </div>
 </div>
 
-<AboutMe/>
-
 <ServiceOffer/>
 
+<AboutMe/>

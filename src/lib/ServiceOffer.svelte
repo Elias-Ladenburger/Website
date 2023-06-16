@@ -6,17 +6,19 @@
 <TextSection sectionID="services">
   <h1 class="text-2xl font-bold">My Offer</h1>
   <p class="pb-3">
-    A versatile problem solver first and foremost. When choosing projects I
-    prefer those that are in danger of going above budget, running over time or
-    falling short of expected scope. I like to make cumbersome processes lean
-    and help overwhelmed teams find inner peace.
+    Every team experiences friction. I help take care of this friction for technology teams and small businesses.
+        As someone who walks the intersection of business and technology, I have experience with many typical and not-so-typical challenges in tech.
+        <br><br><b>Your processes are all over the place?</b><br> As an Agile Coach, I help your team become better, faster.
+      <br><br><b>You have an idea for a new product but no idea how to get started?</b><br> As a Product Manager, I help you fulfill your customer's needs with your business' capabilities
+              <br><br><b>Afraid of a cyber security incident but unsure where to start?</b><br> As a Tech Generalist, I am your first point of contact for all questions around information technology - whether it be cyber security, workflow automation or software quality. 
+
   </p>
   <p class="pb-2">
     This being said, my areas of expertise can roughly be described as follows:
   </p>
   <div class="lg:grid lg:grid-cols-3 gap-2 align-top">
     <div class="rounded-lg border-blueGrey border-4 hover:bg-blueGrey hover:text-white  py-5 px-3">
-      <h3 class="font-bold">Project Management</h3>
+      <h3 class="font-bold">Agile Project Management</h3>
       <ul class="list-disc mx-4">
         <li>Interfacing between business stakeholders and implementation teams</li>
         <li>Project monitoring, reporting and quality control</li>
@@ -26,7 +28,7 @@
     <div
       class="rounded-lg border-blueGrey border-4 hover:bg-blueGrey hover:text-white py-5 px-3 my-2 lg:my-0"
     >
-      <h3 class="font-bold">Product Management</h3>
+      <h3 class="font-bold">Agile Product Management</h3>
       <ul class="list-disc mx-4">
         <li>Requirements solicitation, gathering and definition</li>
         <li>Defining a clear roadmap and continuously tracking progress</li>
@@ -34,7 +36,7 @@
       </ul>
     </div>
     <div class="rounded-lg border-blueGrey border-4 hover:bg-blueGrey hover:text-white  py-5 px-3">
-      <h3 class="font-bold">Tech Consulting</h3>
+      <h3 class="font-bold">Agile Tech Consulting</h3>
       <ul class="list-disc mx-4">
         <li>Analyzing, automating and re-engineering cumbersome processes</li>
         <li>Taking care of your system landscape</li>
