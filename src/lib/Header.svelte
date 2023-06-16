@@ -1,9 +1,9 @@
 <script>
   export let menu = [
     { name: "Home", slug: "/" },
+    { name: "Services", slug: "#services" },
     { name: "About", slug: "#about" },
     //let community = {name: "Community", slug: "community"}
-    { name: "Services", slug: "#services" },
   ];
 
   $: showOnMobile = "hidden";
