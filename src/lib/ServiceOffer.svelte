@@ -4,7 +4,7 @@
 </script>
 
 <TextSection sectionID="services">
-  <h1 class="text-2xl font-bold">My Offer</h1>
+  <h1 class="text-2xl font-bold"><em class="bg-emphasis text-white">My Offer</em></h1>
   <p class="pb-3">
     Every team experiences friction. I help take care of this friction for technology teams and small businesses.
         As someone who walks the intersection of business and technology, I have experience with many typical and not-so-typical challenges in tech.

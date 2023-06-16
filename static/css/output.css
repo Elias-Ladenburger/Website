@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.2.7 | MIT License | https://tailwindcss.com
+! tailwindcss v3.3.2 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -31,6 +31,7 @@
 3. Use a more readable tab size.
 4. Use the user's configured `sans` font-family by default.
 5. Use the user's configured `sans` font-feature-settings by default.
+6. Use the user's configured `sans` font-variation-settings by default.
 */
 
 html {
@@ -47,6 +48,8 @@ html {
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
+  font-variation-settings: normal;
+  /* 6 */
 }
 
 /*
@@ -433,6 +436,9 @@ video {
   --tw-pan-y:  ;
   --tw-pinch-zoom:  ;
   --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
   --tw-ordinal:  ;
   --tw-slashed-zero:  ;
   --tw-numeric-figure:  ;
@@ -480,6 +486,9 @@ video {
   --tw-pan-y:  ;
   --tw-pinch-zoom:  ;
   --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
   --tw-ordinal:  ;
   --tw-slashed-zero:  ;
   --tw-numeric-figure:  ;
@@ -686,20 +695,12 @@ video {
   width: 8rem;
 }
 
-.w-full {
-  width: 100%;
-}
-
-.w-80 {
-  width: 20rem;
-}
-
 .w-\[80\%\] {
   width: 80%;
 }
 
-.max-w-\[600px\] {
-  max-width: 600px;
+.w-full {
+  width: 100%;
 }
 
 .flex-1 {
@@ -762,10 +763,6 @@ video {
   border-width: 4px;
 }
 
-.border-0 {
-  border-width: 0px;
-}
-
 .border-b {
   border-bottom-width: 1px;
 }
@@ -773,6 +770,11 @@ video {
 .border-blueGrey {
   --tw-border-opacity: 1;
   border-color: rgb(102 153 204 / var(--tw-border-opacity));
+}
+
+.border-emphasis {
+  --tw-border-opacity: 1;
+  border-color: rgb(201 141 38 / var(--tw-border-opacity));
 }
 
 .border-primaryContrast {
@@ -813,6 +815,11 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(245 245 245 / var(--tw-bg-opacity));
+}
+
+.bg-orange {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 165 0 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-80 {
@@ -914,10 +921,6 @@ video {
 
 .pt-5 {
   padding-top: 1.25rem;
-}
-
-.pt-7 {
-  padding-top: 1.75rem;
 }
 
 .pt-8 {
@@ -1040,6 +1043,11 @@ video {
 .hover\:bg-blueGrey:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(102 153 204 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-emphasis:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(201 141 38 / var(--tw-bg-opacity));
 }
 
 .hover\:text-white:hover {

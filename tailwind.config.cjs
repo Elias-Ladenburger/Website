@@ -43,6 +43,7 @@ module.exports = {
       teal: "#008080",
       grey: "#808080",
       orange: "#FFA500",
+      orangeBright: "#FCB605",
 		  blueMidnight: "#191970",
 		  blueNavy: "#002147",
 		  blueBlack: "#161633",

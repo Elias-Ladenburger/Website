@@ -4,7 +4,7 @@
 </script>
 
 <TextSection sectionID="about">
-  <h2 class="text-2xl font-bold self-start">About Me</h2>
+  <h2 class="text-2xl font-bold self-start"><em class="bg-emphasis text-white">About Me</em></h2>
   <div class="md:flex md:col-auto justify-end">
     <!--<img
       src="./img/Selfie Transparent.png"
