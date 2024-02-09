@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.2.7 | MIT License | https://tailwindcss.com
+! tailwindcss v3.3.2 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -31,6 +31,7 @@
 3. Use a more readable tab size.
 4. Use the user's configured `sans` font-family by default.
 5. Use the user's configured `sans` font-feature-settings by default.
+6. Use the user's configured `sans` font-variation-settings by default.
 */
 
 html {
@@ -47,6 +48,8 @@ html {
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
+  font-variation-settings: normal;
+  /* 6 */
 }
 
 /*
@@ -433,6 +436,9 @@ video {
   --tw-pan-y:  ;
   --tw-pinch-zoom:  ;
   --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
   --tw-ordinal:  ;
   --tw-slashed-zero:  ;
   --tw-numeric-figure:  ;
@@ -480,6 +486,9 @@ video {
   --tw-pan-y:  ;
   --tw-pinch-zoom:  ;
   --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
   --tw-ordinal:  ;
   --tw-slashed-zero:  ;
   --tw-numeric-figure:  ;
@@ -642,8 +651,16 @@ video {
   margin-right: 1.25rem;
 }
 
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
 .mt-5 {
   margin-top: 1.25rem;
+}
+
+.mt-7 {
+  margin-top: 1.75rem;
 }
 
 .block {
@@ -670,8 +687,8 @@ video {
   display: none;
 }
 
-.h-auto {
-  height: auto;
+.h-px {
+  height: 1px;
 }
 
 .w-12 {
@@ -682,12 +699,12 @@ video {
   width: 8rem;
 }
 
-.w-full {
-  width: 100%;
+.w-\[80\%\] {
+  width: 80%;
 }
 
-.max-w-\[600px\] {
-  max-width: 600px;
+.w-full {
+  width: 100%;
 }
 
 .flex-1 {
@@ -759,19 +776,9 @@ video {
   border-color: rgb(102 153 204 / var(--tw-border-opacity));
 }
 
-.border-navy {
-  --tw-border-opacity: 1;
-  border-color: rgb(10 28 61 / var(--tw-border-opacity));
-}
-
 .border-primaryContrast {
   --tw-border-opacity: 1;
   border-color: rgb(0 33 71 / var(--tw-border-opacity));
-}
-
-.border-teal {
-  --tw-border-opacity: 1;
-  border-color: rgb(0 128 128 / var(--tw-border-opacity));
 }
 
 .bg-blueGrey {
@@ -823,11 +830,6 @@ video {
 
 .p-5 {
   padding: 1.25rem;
-}
-
-.px-1 {
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
 }
 
 .px-10 {
@@ -917,10 +919,6 @@ video {
 
 .pt-8 {
   padding-top: 2rem;
-}
-
-.pt-7 {
-  padding-top: 1.75rem;
 }
 
 .text-left {
@@ -1041,21 +1039,6 @@ video {
   background-color: rgb(102 153 204 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-navy:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(10 28 61 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-teal:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 128 128 / var(--tw-bg-opacity));
-}
-
-.hover\:text-navy:hover {
-  --tw-text-opacity: 1;
-  color: rgb(10 28 61 / var(--tw-text-opacity));
-}
-
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(245 245 245 / var(--tw-text-opacity));
@@ -1154,14 +1137,14 @@ video {
     padding: 1.25rem;
   }
 
-  .md\:px-24 {
-    padding-left: 6rem;
-    padding-right: 6rem;
-  }
-
   .md\:px-4 {
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+
+  .md\:px-7 {
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
   }
 
   .md\:px-8 {
@@ -1169,34 +1152,9 @@ video {
     padding-right: 2rem;
   }
 
-  .md\:py-12 {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-  }
-
   .md\:py-16 {
     padding-top: 4rem;
     padding-bottom: 4rem;
-  }
-
-  .md\:py-5 {
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
-  }
-
-  .md\:py-7 {
-    padding-top: 1.75rem;
-    padding-bottom: 1.75rem;
-  }
-
-  .md\:px-16 {
-    padding-left: 4rem;
-    padding-right: 4rem;
-  }
-
-  .md\:px-7 {
-    padding-left: 1.75rem;
-    padding-right: 1.75rem;
   }
 
   .md\:pb-0 {
