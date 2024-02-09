@@ -17,7 +17,7 @@
     <img
       src="./img/Best Friends.jpg"
       alt="Best Friends"
-      class="pt-5"
+      class=""
     />
   </div>
 </div>
