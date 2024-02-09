@@ -16,7 +16,7 @@
     </Hero>
     <img
       src="./img/Best Friends.jpg"
-      alt="Elias Ladenburger"
+      alt="Best Friends"
       class="pt-5"
     />
   </div>
