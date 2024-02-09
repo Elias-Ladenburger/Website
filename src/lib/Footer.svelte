@@ -19,5 +19,7 @@ relative flex md:p-0 md:space-x-6">
         </li>
         {/each}
         <li class="inline-block py-2 md:px-4">&#169; Elias Ladenburger 2023. All rights reserved.</li>
+        <li><a rel="nofollow" href="https://www.exali.de/siegel/Elias_Ladenburger" target="_blank" title="Mehr &uuml;ber die IT-Haftpflicht von Elias Ladenburger"><img src="https://www.exali.de/siegel/siegel_de-1_9652b4e2a2676507708d8ef68114599d.png" width="65" height="65" alt="Mehr &uuml;ber die IT-Haftpflicht von Elias Ladenburger" /></a></li>
     </ul>
+    
 </section>

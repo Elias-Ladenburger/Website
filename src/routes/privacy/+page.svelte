@@ -184,6 +184,22 @@ However, in a few cases, some of my website features may not function as a resul
 My website contains links to other websites. 
 If you choose to visit other sites by clicking on these links, please be aware that other privacy policies will apply.
 </p>
+<h3 class="text-xl mt-3 mb-2">Hexali seal</h3>
+<ol>
+<li> <b>description and scope of data processing: </b>
+This page uses an integration of the Exali AG liability seal. The graphic element of the seal is loaded from the servers of Exali AG. 
+    For this purpose, due to the technical design of the Internet, your IP address is processed in order to transfer the seal to your browser.
+    If you click on this seal, you will leave this site and be redirected to the servers of Exali AG.
+    You can find more information in Exali's privacy policy: https://www.exali.de/Ueber-exali/Rechtliches/Datenschutzerklaerung,100401.php#Verwendung/Einbindung%20des%20exali.de-Haftpflicht-Siegels.
+</li>
+<li><b>legal basis for data processing: </b>
+The legal basis for data processing is Art. 6 para. 1 lit. f) GDPR (legitimate interest).</li>
+<li><b>purpose of data processing: </b>
+The purpose of data processing is to provide proof of the legally prescribed mandatory information on professional liability in accordance with Section 2 (11) DL-InfoV) in a visually appealing manner.
+</li>
+<li><b>legitimate interest: </b>
+My legitimate interest for data processing results from the purpose of providing an appealing online offer and fulfilling my information obligations in a design-appealing manner.</li>
+</ol>
 
 <h2 class="text-xl mt-5 mb-2" id="changes">
     Changes to my privacy policy
