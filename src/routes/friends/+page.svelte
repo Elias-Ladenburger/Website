@@ -15,7 +15,7 @@
     >
     </Hero>
     <img
-      src="./img/Witalina + Elias skifahren.jpg"
+      src="./img/Best Friends.jpg"
       alt="Elias Ladenburger"
       class="pt-5"
     />
