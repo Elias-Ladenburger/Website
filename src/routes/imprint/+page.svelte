@@ -8,9 +8,6 @@
         <h1 class="text-2xl pt-8">
             Imprint
         </h1>
-        <h2 class="text-xl my-5">
-            Information pursuant to Sect. 5 German Telemedia Act (TMG)
-        </h2>
         <p>
             Elias Ladenburger<br>
             Kühnemannstr. 50A<br>
@@ -28,8 +25,8 @@
             Liability for Contents
         </h2>
 
-    <p>As service provider, I am liable for all contents of this website according to Paragraph 7, Sect. 1 German Telemedia Act (TMG). 
-        However, according to Paragraphs 8 to 10 German Telemedia Act (TMG), service providers are not obligated to permanently monitor submitted or stored information or to search for evidences that indicate illegal activities.
+    <p>As service provider, I am liable for all contents of this website. 
+        However, service providers are not obligated to permanently monitor submitted or stored information or to search for evidences that indicate illegal activities.
     </p>
     <p>Legal obligations to removing information or to blocking the use of information remain unchallenged. 
         In this case, liability is only possible at the time of knowledge about a specific violation of law. 
