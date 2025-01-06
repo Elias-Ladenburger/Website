@@ -4,12 +4,13 @@
 	"private": true,
 	"scripts": {
 		"process": "npx tailwindcss -i ./static/css/input.css -o ./static/css/output.css --watch",
-		"dev": "vite dev && npm run process",
 		"build": "vite build",
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-		"tailwind": "npx tailwindcss -i ./static/css/input.css -o ./static/css/main.css --watch"
+		"tailwind": "npx tailwindcss -i ./static/css/input.css -o ./static/css/main.css --watch",
+		"dev": "vite dev && npm run process"
+
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^2.0.0",

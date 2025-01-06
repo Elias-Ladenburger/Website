@@ -3,7 +3,7 @@
   import Button from "./Button.svelte";
 </script>
 
-<TextSection sectionID="services">
+<TextSection sectionID="services" bgColor="bg-opacity-80">
   <h1 class="text-2xl font-bold">My Offer</h1>
   <p class="pb-3">
     Your project is delayed and the status unclear? <br>

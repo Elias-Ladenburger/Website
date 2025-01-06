@@ -830,6 +830,10 @@ video {
   background-image: url('../img/Backgroundimage.webp');
 }
 
+.bg-networkBG {
+  background-image: url('../img/Abstract-BG-Network.webp');
+}
+
 .p-3 {
   padding: 0.75rem;
 }

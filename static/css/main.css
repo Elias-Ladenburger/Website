@@ -824,6 +824,14 @@ video {
   background-image: url('../img/Backgroundimage.webp');
 }
 
+.bg-networkBG {
+  background-image: url('../img/AbstractNetwork.webp');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
 .p-3 {
   padding: 0.75rem;
 }
@@ -969,10 +977,6 @@ video {
 
 .leading-normal {
   line-height: 1.5;
-}
-
-.leading-tight {
-  line-height: 1.25;
 }
 
 .text-emphasis {

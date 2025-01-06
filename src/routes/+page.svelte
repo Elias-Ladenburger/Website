@@ -1,13 +1,13 @@
 <script>
   import Hero from "$lib/Hero.svelte";
   import Button from "$lib/Button.svelte";
-  import AboutMe from "$lib/AboutMe.svelte";
   import ServiceOffer from "$lib/ServiceOffer.svelte";
 </script>
 
-<div class="bg-abstractBG">
+<div class="bg-networkBG bg-cover">
+
   <div
-    class="md:grid md:grid-cols-2 gap-2 text-lg text-white text-left spacing-y-5 md:spacing-0 items-center bg-navy bg-opacity-80"
+    class="md:grid md:grid-cols-2 gap-2 text-lg bg-navy bg-opacity-80 text-white text-left spacing-y-5 md:spacing-0 items-center"
   >
     <Hero
       heroTitle="Hi! My name is Elias Ladenburger."

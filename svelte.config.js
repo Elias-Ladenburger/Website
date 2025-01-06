@@ -16,9 +16,7 @@ const config = {
       directives: {
         "script-src": [
           "self",
-          "embed.typeform.com",
-          "*.tidio.co",
-          "*.tidiochat.com",
+          "embed.typeform.com"
         ],
         "img-src": ["*"],
       },
