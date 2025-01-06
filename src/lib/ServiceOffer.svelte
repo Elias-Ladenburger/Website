@@ -4,15 +4,25 @@
 </script>
 
 <TextSection sectionID="services">
-  <h1 class="text-2xl font-bold"><em class="bg-teal text-white">My Offer</em></h1>
+  <h1 class="text-2xl font-bold">My Offer</h1>
   <p class="pb-3">
-    Every team experiences friction. I help take care of this friction for technology teams and small businesses.
-        As someone who walks the intersection of business and technology, I have experience with many typical and not-so-typical challenges in tech.
-        <br><br><b>Your processes are all over the place?</b><br> As an Agile Coach, I help your team become better, faster.
-      <br><br><b>You have an idea for a new product but no idea how to get started?</b><br> As a Product Manager, I help you fulfill your customer's needs with your business' capabilities
-              <br><br><b>Afraid of a cyber security incident but unsure where to start?</b><br> As a Tech Generalist, I am your first point of contact for all questions around information technology - whether it be cyber security, workflow automation or software quality. 
+    Your project is delayed and the status unclear? <br>
+    You have strong technical experts, but still nothing seems to get done? <br>
+    You feel like you need to be in ten places at once to keep the business going? <br>
+    
+    <br>
+    Every project experiences friction. <br>
+    As a good project manager, I methodically reduce this friction. I do this by following four principles:</p>
+    <ul class="list-disc mx-4">
+      <li><b>Pragmatism:</b> When something doesn't work, we change it. No dogma, no b*llsh*t. Agile principles are valuable, treating them as religion is not. </li>
+      <li><b>Transparency:</b> Information is communicated frequently and asynchronously to project members and stakeholders. You do not need to attend meetings in order to stay up to date.</li>
+      <li><b>Efficiency:</b> Meetings are kept short and on point. Short, asynchronous communication is preferred. Goals first, improvement second, gold plating never.</li>
+      <li><b>Respect:</b> I believe everybody can bring value. I don't believe that everybody always does.</li>
+      <li><b>(Bonus) Humor:</b> I have been known to use memes and Pizza to motivate people at on-site events. Isn't life just more fun when we can all have a laugh occasionally?</li>
+    </ul>
+    <br>
+    
 
-  </p>
   <p class="pb-2">
     This being said, my areas of expertise can roughly be described as follows:
   </p>

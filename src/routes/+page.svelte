@@ -11,9 +11,9 @@
   >
     <Hero
       heroTitle="Hi! My name is Elias Ladenburger."
-      heroSubtitle="I help businesses with <em class='bg-teal'>pragmatic project management and tech consulting</em>."
+      heroSubtitle="I help businesses with <em class='bg-teal'>pragmatic</em> project management and tech consulting. "
     >
-      <Button label="Lean more!" link="#about" />
+      <Button label="Lean more!" link="#services" />
     </Hero>
     <img
       src="./img/Profile transparent.webp"
@@ -24,5 +24,3 @@
 </div>
 
 <ServiceOffer/>
-
-<AboutMe/>
