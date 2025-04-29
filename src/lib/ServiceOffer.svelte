@@ -3,7 +3,7 @@
   import Button from "./Button.svelte";
 </script>
 
-<TextSection sectionID="services" bgColor="bg-opacity-80">
+<TextSection sectionID="services">
   <h1 class="text-2xl font-bold">My Offer</h1>
   <p class="pb-3">
     Your project is delayed and the status unclear? <br>
@@ -12,10 +12,12 @@
     
     <br>
     Every project experiences friction. <br>
-    As a good project manager, I methodically reduce this friction. I do this by following four principles:</p>
+    As a good project manager, I methodically reduce this friction. <br>
+    <br>
+    I do this by following my 4+1 principles:</p>
     <ul class="list-disc mx-4">
       <li><b>Pragmatism:</b> When something doesn't work, we change it. No dogma, no b*llsh*t. Agile principles are valuable, treating them as religion is not. </li>
-      <li><b>Transparency:</b> Information is communicated frequently and asynchronously to project members and stakeholders. You do not need to attend meetings in order to stay up to date.</li>
+      <li><b>Transparency:</b> Information is communicated frequently and asynchronously to project members and stakeholders. You do not need to attend meetings in order to stay up to date. Risks are communicated early and openly.</li>
       <li><b>Efficiency:</b> Meetings are kept short and on point. Short, asynchronous communication is preferred. Goals first, improvement second, gold plating never.</li>
       <li><b>Respect:</b> I believe everybody can bring value. I don't believe that everybody always does.</li>
       <li><b>(Bonus) Humor:</b> I have been known to use memes and Pizza to motivate people at on-site events. Isn't life just more fun when we can all have a laugh occasionally?</li>
@@ -27,30 +29,33 @@
     This being said, my areas of expertise can roughly be described as follows:
   </p>
   <div class="lg:grid lg:grid-cols-3 gap-2 align-top">
-    <div class="rounded-lg border-blueGrey border-4 hover:bg-blueGrey hover:text-white  py-5 px-3">
-      <h3 class="font-bold">Agile Project Management</h3>
-      <ul class="list-disc mx-4">
-        <li>Interfacing between business stakeholders and implementation teams</li>
-        <li>Project monitoring, reporting and quality control</li>
-        <li>Implementing agile project management practices</li>
+    <div class="rounded-lg py-5 px-3">
+      <h3 class="font-bold"><em class="px-1 bg-teal text-white">Agile Project Management</em></h3>
+      <ul class="list-disc mx-4 text-blueBlack">
+        <li><b>Full service</b> along the <b>entire project management lifespan</b>: from inception to closing.</li>
+        <li><b>Specialization</b>: implementing good practices for agile project management.</li>
+        <li><b>Specialization</b>: leading cross-cultural and cross-functional project teams.</li>
+        <li>See <a class="underline hover:no-underline" href="#">notable successes</a></li>
       </ul>
     </div>
     <div
-      class="rounded-lg border-blueGrey border-4 hover:bg-blueGrey hover:text-white py-5 px-3 my-2 lg:my-0"
+      class="rounded-lg py-5 px-3 my-2 lg:my-0"
     >
-      <h3 class="font-bold">Agile Product Management</h3>
+      <h3 class="font-bold"><em class="px-1 bg-teal text-white">Agile Product Management</em></h3>
       <ul class="list-disc mx-4">
-        <li>Requirements solicitation, gathering and definition</li>
-        <li>Defining a clear roadmap and continuously tracking progress</li>
-        <li>Testing and quality assurance</li>
+        <li><b>Build your software</b> with someone who ties together your users, UX designers, engineers and management.</li>
+        <li><b>Specialization</b>: Agile product development in cross-functional teams.</li>
+        <li><b>Specialization</b>: hardware-centric development, platforms, other highly technical products.</li>
+        <li>See <a class="underline hover:no-underline" href="#">notable successes</a></li>
       </ul>
     </div>
-    <div class="rounded-lg border-blueGrey border-4 hover:bg-blueGrey hover:text-white  py-5 px-3">
-      <h3 class="font-bold">Agile Tech Consulting</h3>
+    <div class="rounded-lg  py-5 px-3">
+      <h3 class="font-bold"><em class="px-1 bg-teal text-white">Premium Tech Consulting</em></h3>
       <ul class="list-disc mx-4">
-        <li>Analyzing, automating and re-engineering cumbersome processes</li>
-        <li>Taking care of your system landscape</li>
-        <li>Bringing an outside perspective to your insider smarts</li>
+        <li><b>Analyze your business</b> with someone who speaks business and understands tech.</li>
+        <li><b>Specialization</b>: Business Process Re-engineering and automation.</li>
+        <li><b>Specialization</b>: Digital Business Models and eCommerce.</li>
+        <li>See <a class="underline hover:no-underline" href="#">notable successes</a></li>
       </ul>
     </div>
   </div>

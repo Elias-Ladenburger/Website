@@ -2,7 +2,7 @@
   export let sectionID = "newSection"
   export let bgColor = "bg-navy"
 
-  let myClasses = `mt-7 px-5 md:pt-7 md:px-7 ${bgColor}`
+  let myClasses = `px-5 md:pt-7 md:px-7 bg-white`
 </script>
 
 <section id={sectionID} class={myClasses}>
