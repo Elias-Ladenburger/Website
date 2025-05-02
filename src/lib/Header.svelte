@@ -2,6 +2,7 @@
   export let menu = [
     { name: "Home", slug: "/" },
     { name: "Services", slug: "#services" },
+    {name: "Blog", slug: "https://blog.eliasladenburger.com"}
     //let community = {name: "Community", slug: "community"}
   ];
 
