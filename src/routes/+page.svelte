@@ -11,7 +11,7 @@
   >
     <Hero
       heroTitle="Hi! My name is Elias Ladenburger."
-      heroSubtitle="I help businesses with <em class='bg-teal'>pragmatic</em> project management and tech consulting. "
+      heroSubtitle="I offer pragmatic project management. Hands-on. Outcome-driven. Focused on <b>ambiguous problem spaces</b>."
     >
       <Button label="Lean more!" link="#services" />
     </Hero>

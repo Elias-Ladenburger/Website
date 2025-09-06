@@ -12,7 +12,8 @@
     
     <br>
     Every project experiences friction. <br>
-    As a good project manager, I methodically reduce this friction. <br>
+    Let's reduce this friction to get your business back on track. <br>
+    
     <br>
     I do this by following my 4+1 principles:</p>
     <ul class="list-disc mx-4">
